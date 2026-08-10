@@ -1,4 +1,124 @@
 
-body{
-    background-color: beige;
+/*Reset Style*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*Common Style*/
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/*Navbar*/
+
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 14px 0;
+}
+
+
+/* Logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.logo > span {
+    background-color: #0D1B2A;
+    color: #3B82F6;
+
+    width: 32px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.logo div {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo strong {
+    font-size: 20px;
+}
+
+.logo small {
+    font-size: 20px;
+}
+
+
+/* Navigation */
+
+.nav-menu {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.nav-menu li a {
+    color: #575757;
+    font-size: 16px;
+}
+
+}
+
+
+/* Register button */
+
+.register-btn {
+    background-color: #1D4ED8;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 41px;
+
+    border-radius: 12px;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* Hero */
