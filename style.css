@@ -323,3 +323,71 @@ button {
     color: white;
     border-color: #2563EB;
 }
+
+/* Challenge */
+
+.hackathon {
+    max-width: 1400px;
+    margin: 100px auto;
+    padding: 70px 80px;
+    background-color: #EEF2FF;
+    border: 1px solid #C7D2FE;
+    border-radius: 16px;
+}
+.hackathon-content {
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+}
+
+.hackathon-label {
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+}
+
+.hackathon h2 {
+    color: #0D1B2A;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+.hackathon h2 span {
+    color: #2563EB;
+}
+
+.hackathon-info {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-bottom: 50px;
+}
+
+.hackathon-info div {
+    display: flex;
+    flex-direction: column;
+}
+
+.hackathon-info strong {
+    color: #0D1B2A;
+    font-size: 26px;
+    margin-top: 40px;
+    margin-bottom: 4px;
+}
+
+.hackathon-info span {
+    color: #64748B;
+    font-size: 12px;
+}
+
+.hackathon-btn {
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+}
