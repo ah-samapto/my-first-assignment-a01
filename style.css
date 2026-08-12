@@ -391,3 +391,84 @@ button {
     font-size: 16px;
     font-weight: bold;
 }
+
+/* Footer */
+
+.footer {
+    max-width: 1400%;
+    margin: auto;
+    padding: 100px;
+    background-color: #add5ff;
+    background-size: 100%;
+}
+
+
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.footer-logo img {
+    width: 180px;
+    height: auto;
+}
+
+
+
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+
+
+.footer hr {
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin: 25px 0 18px;
+}
+
+
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.copyright {
+    color: #000000;
+    font-size: 16px;
+}
+
+
+
+.footer-links {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-links a {
+    color: #000000;
+    font-size: 16px;
+    text-decoration: none;
+}
