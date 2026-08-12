@@ -199,3 +199,127 @@ button {
     color: #575757;
     font-size: 14px;
 }
+
+/* Pricing */
+
+.pricing {
+    max-width: 1000px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 48px;
+    color: #0D1B2A;
+    margin-bottom: 10px;
+}
+
+.pricing-subtitle {
+    color: #575757;
+    font-size: 16px;
+    margin-bottom: 38px;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.pricing-card {
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 26px;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.plan-name {
+    color: #888888;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.price {
+    color: #0D1B2A;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.price-per {
+    color: #888888;
+    font-size: 13px;
+    margin-bottom: 17px;
+}
+
+.pricing-card hr {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin-bottom: 16px;
+}
+
+.features {
+    margin-bottom: 20px;
+}
+
+.features li {
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    padding-left: 12px;
+    position: relative;
+}
+
+.features li::before {
+    content: "•";
+    color: #2563EB;
+    position: absolute;
+    left: 0;
+}
+
+.pricing-btn {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #2563EB;
+    background-color: white;
+    color: #2563EB;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Featured Pro Card */
+
+.featured {
+    background-color: #0D1B2A;
+    border-color: #0D1B2A;
+}
+
+.featured .plan-name {
+    color: #93C5FD;
+}
+
+.featured .price {
+    color: white;
+}
+
+.featured .price-per {
+    color: #f5f3f3;
+}
+
+.featured hr {
+    border-color: #636363;
+}
+
+.featured .features li {
+    color: #ffffff;
+}
+
+.featured .pricing-btn {
+    background-color: #2563EB;
+    color: white;
+    border-color: #2563EB;
+}
